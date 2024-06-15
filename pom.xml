@@ -12,8 +12,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <scm>
-        <url>https://github.com/collengine/string-padder-library-kiptanui</url>
-        <connection>scm:git:https://github.com/collengine/string-padder-library-kiptanui.git</connection>
+        <url>https://github.com/collengine/string-padder-library</url>
+        <connection>scm:git:https://github.com/collengine/string-padder-library.git</connection>
         <tag>test-lib-1.0</tag>
     </scm>
     <distributionManagement>
@@ -55,7 +55,8 @@
                     <artifactId>maven-release-plugin</artifactId>
                     <version>3.0.1</version>
                     <configuration>
-                        <tagBase>https://github.com/collengine/string-padder-library-kiptanui/releases</tagBase>
+                        <tagBase>https://github.com/collengine/string-padder-library/releases</tagBase>
+                        <releaseProfiles>release</releaseProfiles>
                     </configuration>
                 </plugin>
                 <plugin>
